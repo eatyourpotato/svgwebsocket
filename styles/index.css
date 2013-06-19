@@ -1,0 +1,22 @@
+body,html {
+	width:100%;
+	height:100%;
+}
+
+* {
+	padding:0px;
+	margin: 0px;
+}
+
+#svg_editor {
+	float:left;
+	width:80%;
+	height:100%;
+}
+
+#chat_multirooms {
+	float:right;
+	width:20%;
+	height:100%;
+}
+

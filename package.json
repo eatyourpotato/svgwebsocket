@@ -1,0 +1,32 @@
+{
+    "name": "OpenDraw",
+    "version": "0.1.2",
+    "description": "Chat with SVG Edit",
+    "keywords": ["OpenShift", "Node.js", "application", "socket.io"],
+    "homepage": "https://github.com/eatyourpotato/svgwebsocket",
+    "author": {
+        "name": "Polytech SI4",
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eatyourpotato/svgwebsocket"
+    },
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+
+    "dependencies": {
+        "socket.io": "0.9.x",
+        "express": "3.x"
+    },
+    "devDependencies": {},
+    "bundleDependencies": [],
+
+    "scripts": { 
+        "start": "node server.js" 
+    },
+
+    "private": true,
+    "main": "server.js"
+}
